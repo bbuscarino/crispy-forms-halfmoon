@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "cripsy-forms-halfmoon"
+name = "crispy-forms-halfmoon"
 version = "0.1.0"
 description = "crispy templates for halfmoon"
 authors = ["Ben Buscarino <foss@busc.dev>"]

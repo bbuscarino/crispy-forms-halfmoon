@@ -1,6 +1,6 @@
 {% load crispy_forms_field %}
 
-<select class="{{ field_class }}" {% if field.attrs.multiple %}multiple="multiple"{% endif %} name="{{ field_name }}">
+<select class="{{ field_class }}" {% if field.attrs.multiple %}multiple="multiple"{% endif %} name="{{ field.name }}">
   <option value="" selected="selected" disabled="disabled">{{ field.help_text }}</option>
     {% for value, label in field.field.choices %}
         <option value="{{ value }}"{% if field.value == value %} selected{% endif %}>{{ label }}</option>
